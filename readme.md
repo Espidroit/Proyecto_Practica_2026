@@ -22,3 +22,28 @@ Desarrollar e implementar un sistema informático de gestión integral que autom
 
 ## Alcance del proyecto
 El proyecto incluye el diseño de la base de datos, el desarrollo del backend para la gestión de productos y una interfaz de usuario para la toma de pedidos y cobro. No incluye, en esta primera etapa, el sistema de reservas online ni la integración con apps de delivery externas.
+
+## Cronograma de actividades
+- Día 1: análisis
+- Día 2: desarrollo
+- Día 3: pruebas
+
+## Estudio de factibilidad
+
+### Técnica
+Evaluar hardware, software y conocimientos necesarios.
+
+### Económica
+Costos del sistema vs beneficios.
+
+### Operativa
+Si el sistema puede implementarse en el entorno real.
+
+## Requerimientos Funcionales
+
+### Requisitos generales
+- El sistema debe ser fácil de usar
+
+### Requisitos funcionales
+- Registrar ventas
+- Gestionar productos
