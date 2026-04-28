@@ -47,3 +47,6 @@ Si el sistema puede implementarse en el entorno real.
 ### Requisitos funcionales
 - Registrar ventas
 - Gestionar productos
+
+### Técnica
+Se analizará si el sistema puede desarrollarse con las tecnologías disponibles como Python, base de datos MySQL, etc.
