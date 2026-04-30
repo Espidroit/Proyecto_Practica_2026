@@ -10,4 +10,4 @@ Este script permite calcular la edad de una persona a partir de su fecha de naci
 python edad.py
 
 3. Ingresar la fecha en formato YYYY-MM-DD
-4. [Click para ver el codigo de python] (./edad.py)
+
