@@ -50,3 +50,5 @@ Si el sistema puede implementarse en el entorno real.
 
 ### Técnica
 Se analizará si el sistema puede desarrollarse con las tecnologías disponibles como Python, base de datos MySQL, etc.
+
+[Click para ver el codigo de python] (./edad.py)
