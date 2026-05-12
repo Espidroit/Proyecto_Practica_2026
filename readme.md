@@ -50,3 +50,96 @@ Si el sistema puede implementarse en el entorno real.
 
 ### Técnica
 Se analizará si el sistema puede desarrollarse con las tecnologías disponibles como Python, base de datos MySQL, etc.
+
+---
+
+# Diseño del Sistema
+
+El sistema de restaurante estará dividido en módulos:
+
+- Módulo de ventas
+- Módulo de cocina
+- Módulo de inventario
+- Módulo de facturación
+- Módulo de administración
+
+Se utilizará una arquitectura MVC:
+- Modelo
+- Vista
+- Controlador
+
+---
+
+# Modelo de Datos
+
+## Datos de entrada
+- Nombre del cliente
+- Pedido realizado
+- Cantidad de productos
+- Método de pago
+- Datos de productos
+
+## Datos internos
+- ID de venta
+- Estado del pedido
+- Stock disponible
+- Usuarios registrados
+- Historial de ventas
+
+## Datos de salida
+- Ticket de compra
+- Reporte diario de ventas
+- Reporte de stock
+- Historial de pedidos
+
+---
+
+# Base de Datos
+
+Motor de base de datos:
+- MySQL
+
+Tablas principales:
+- usuarios
+- productos
+- pedidos
+- detalle_pedidos
+- ventas
+- inventario
+
+Relaciones:
+- Un pedido puede tener muchos productos
+- Una venta pertenece a un cliente
+- El inventario se actualiza automáticamente
+
+---
+
+# Dependencias
+
+El sistema necesita:
+
+- Python 3
+- MySQL Server
+- Librería mysql-connector
+- Flask o Django
+- Git
+
+---
+
+# Software (Herramientas)
+
+Herramientas utilizadas en el desarrollo:
+
+- Visual Studio Code
+- GitHub
+- MySQL Workbench
+- Postman
+- Navegador web
+
+---
+
+# Procedimientos de Instalación
+
+1. Clonar el repositorio:
+```bash
+git clone URL_DEL_REPOSITORIO
